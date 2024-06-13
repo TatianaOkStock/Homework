@@ -1,0 +1,764 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "7c427eea-87bc-4faf-973e-6f9b75f3f078",
+   "metadata": {},
+   "source": [
+    "Numbers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "8d8adc60-b59a-4e84-ab3a-56f92e042aeb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "102"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "55+47"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "ddc1a1e8-22be-4f49-b7d7-e9e328e16d88",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "55-47"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "8d6941e6-4c95-4aff-86ab-c97c1dcee2e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9.0"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "27/3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "7e7c1af1-34a4-4499-80de-33bf258fc97b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1.5"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3/2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "d96acd3e-c9c2-48ce-9b32-5e55618cc8f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# You have 20 apples and 3 kids, you need give them equal amount of apples\n",
+    "# modulo\n",
+    "20%3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "b9455714-ead6-4a66-89d2-ae3071dafcb3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Modulo (reminder)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "91a3318b-54f5-45bf-ad03-de1ce4e07796",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "16"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Powers\n",
+    "4**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "bce04598-f479-4884-ba90-97737eefee22",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2**3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "3e9177e8-1762-41cd-a6cf-619202f424b9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "32"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2**5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "fbb9b6df-90d9-45e8-8eb0-bb7921014359",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "105"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Order of Operations followed in P\n",
+    "2+10*10+3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "06ca182a-d46a-4de3-a37d-89c11d3bc71d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'b' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[11], line 2\u001b[0m\n\u001b[1;32m      1\u001b[0m a \u001b[38;5;241m=\u001b[39m\u001b[38;5;241m5\u001b[39m\n\u001b[0;32m----> 2\u001b[0m b \u001b[38;5;241m+\u001b[39m \u001b[38;5;241m6\u001b[39m\n\u001b[1;32m      3\u001b[0m a\u001b[38;5;241m*\u001b[39mb\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'b' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "a =5\n",
+    "b + 6\n",
+    "a*b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "30dc64d0-843d-47af-bb1d-484958a9fe34",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 5\n",
+    "b = 7\n",
+    "a*b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "970b76ad-22d7-432c-975e-89ea503e8d85",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Reassignment\n",
+    "a = 7\n",
+    "a*b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0c20e629-802f-4b8a-9dab-85a330135d9f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Reassigning by using the variable in the math\n",
+    "a = a *2\n",
+    "a "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "d67d3cdb-a5a9-466f-a81e-7a112ffc64f7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Reassigning by using the variable by \n",
+    "a = a +2\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "f8d4f8f4-ba2e-4abf-abf3-bd334082f45b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "35.38\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Calculate a tip at the restaurant\n",
+    "pizza = 20\n",
+    "taco = 12\n",
+    "steak = 75\n",
+    "plov = 16\n",
+    "juice = 4\n",
+    "\n",
+    "food_bill = taco + plov + juice\n",
+    "tax_rate = 0.1  # 10 rate\n",
+    "\n",
+    "food_taxes = food_bill * tax_rate\n",
+    "\n",
+    "food_bill_and_tax = food_bill * tax_rate\n",
+    "\n",
+    "food_tip = 0.18\n",
+    "\n",
+    "food_total = food_tip + food_taxes + food_bill\n",
+    "\n",
+    "print(food_total)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9b332f59-82cd-4e3c-b670-075ef31e3598",
+   "metadata": {},
+   "source": [
+    "Reassigning Variables - Advanced Options"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "a97fc21f-77b6-4ba0-893d-7d0354ee14a8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "child_age = 7\n",
+    "\n",
+    "# if we run age update scripts\n",
+    "child_age = child_age +3\n",
+    "print(child_age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "e87dac52-7b14-4b0e-9475-0a3aa5caf1eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "# more advanced way - shorter way:\n",
+    "child_age = 7\n",
+    "child_age += 3\n",
+    "print(child_age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "edf8f0ce-b345-4185-af74-7a00763f5e51",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "14\n"
+     ]
+    }
+   ],
+   "source": [
+    "child_age = 7\n",
+    "child_age *= 2\n",
+    "# child_age = child_age * 2\n",
+    "print(child_age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "3a5990a6-6d89-43e7-8cde-553a8a59af95",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Determining variable type with type()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "a0516409-efc0-4ecd-83e1-a20748281f2a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(child_age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "9c6f1124-ae59-4fc5-8bb8-0c7b427c26a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "message = \"Welcome\"\n",
+    "type(message)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7676a23b-c01c-4953-89cc-82dabdc94002",
+   "metadata": {},
+   "source": [
+    "# Strings"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "0dbac0cb-ae89-4564-884a-284c29a3a338",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "statement1 = \"Marsel doesn't like cinnamon\"\n",
+    "statement2 = 'Marsel doesn\"t like cinnamon'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "545346dd-23b7-40fb-a0fb-1ed7f8ed6596",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Marseldrinks coffee\n",
+      "But only in the morning\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_name = \"Marsel\"\n",
+    "print(my_name + \"drinks coffee\" + \"\\nBut only in the morning\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "dcd665dd-6cfb-46ab-9ea8-91cd7fa89c0f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "v\n"
+     ]
+    }
+   ],
+   "source": [
+    "title = \"DevOps Engineer\"\n",
+    "print(title[2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "14a9e1bd-8a58-486f-9867-b00ef3077816",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unexpected character after line continuation character (124488215.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[33], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    \\n - is a special character meaning New Line\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unexpected character after line continuation character\n"
+     ]
+    }
+   ],
+   "source": [
+    "\\n - is a special character meaning New Line\n",
+    "\\t - is a special character meaning Tab space"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "e60bc2f7-839a-4930-8a8d-115f0d8dcc93",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "DevOps\n",
+      "Engineer\n"
+     ]
+    }
+   ],
+   "source": [
+    "# string (index) slicing\n",
+    "title = \"DevOps Engineer\"\n",
+    "\n",
+    "print(title[0:6])\n",
+    "print(title[7:])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "e30f361f-5c6e-4209-83da-0863de51e7a4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Smith\n",
+      "mith\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Reverse Index\n",
+    "congrats_message = \"Congratulations witha birthday anniversary, Smith\"\n",
+    "print(congrats_message[-5:])\n",
+    "print(congrats_message[45:])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "d441d48c-2dca-4382-86c4-106c60c69af6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "DO\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Steps/Jump can be indicated (optional) to jump through slicing\n",
+    "title = \"DevOps Engineer\"\n",
+    "print(title[0:6:3])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "5ae6da2a-a64f-44ea-aaf4-c73a44fd223f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['John', 'Alice', 'Tanya']\n"
+     ]
+    }
+   ],
+   "source": [
+    "students = [\"John\", \"Smith\", \"Alice\", \"Charles\", \"Tanya\"]\n",
+    "team1_tigers = students [::2]\n",
+    "print(team1_tigers)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "f0026ada-5057-46ea-b783-1b44fc4683f5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ali\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"Alice\"\n",
+    "print(name[0:3])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d7c41bb4-1af7-4e6d-badb-798a94ad7c56",
+   "metadata": {},
+   "source": [
+    "# String formatting"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "b518a487-5bf9-4584-83d1-460b6a2db16e",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "incomplete input (667374749.py, line 10)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[43], line 10\u001b[0;36m\u001b[0m\n\u001b[0;31m    print(\"My Terraform exam score is \" + str(my_exam_score)\u001b[0m\n\u001b[0m                                                            ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m incomplete input\n"
+     ]
+    }
+   ],
+   "source": [
+    "# standard print\n",
+    "print(variable)\n",
+    "print(5)\n",
+    "print(\"Hello\")\n",
+    "\n",
+    "print(5+3)\n",
+    "print(variable1+variable)\n",
+    "\n",
+    "my_exam_score = 80\n",
+    "print(\"My Terraform exam score is \" + str(my_exam_score)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "32b17114-2896-40f6-8ffb-4eea062133f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "closing parenthesis ')' does not match opening parenthesis '[' (3715017690.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[45], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    exam_scores = [68, 77, 55)\u001b[0m\n\u001b[0m                             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m closing parenthesis ')' does not match opening parenthesis '['\n"
+     ]
+    }
+   ],
+   "source": [
+    "exam_scores = [68, 77, 55)\n",
+    "\n",
+    "print(\"Sam's exam score is \" str(exam_scores[0]))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ba2f9864-6cc3-4174-9b62-c06603d97c7a",
+   "metadata": {},
+   "source": [
+    "#Useful functions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "bc4e8c47-fd66-4dc9-a349-3e3f2a38d0bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "SITE RELIABILITY ENGINEER\n",
+      "['Site', 'Reliability', 'Engineer']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# .upper()\n",
+    "# .lower()\n",
+    "# .split()\n",
+    "\n",
+    "title = \"Site Reliability Engineer\"\n",
+    "\n",
+    "# .upper() function converts string to ALL Uppercase\n",
+    "print(title.upper())\n",
+    "\n",
+    "# .split(0 function splits content by the specified character, and create a new list with the split items\n",
+    "print(title.split(\" \"))\n",
+    "      "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "450b1c69-cf99-4262-8e39-234a28c8a385",
+   "metadata": {},
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
